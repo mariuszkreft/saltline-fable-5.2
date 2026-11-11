@@ -1,0 +1,4 @@
+.m2herd/
+node_modules/
+dist/
+.specify/

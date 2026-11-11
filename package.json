@@ -1,0 +1,17 @@
+{
+  "name": "saltline-fable-5.2",
+  "private": true,
+  "type": "module",
+  "description": "Saltline co-op: single-file browser FPS plus the headless co-op server",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "check": "node tools/build.mjs --check",
+    "parity": "node tools/parity.mjs --assert",
+    "proto-test": "node tools/proto-test.mjs",
+    "serve": "node tools/serve.mjs",
+    "solo": "python3 -m http.server 8731"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
